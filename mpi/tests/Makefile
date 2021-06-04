@@ -1,6 +1,7 @@
 FC = mpif90
 #FC = mpiifort
-FCFLAGS = -O3 -fomit-frame-pointer -fopenmp -I../..
+#FCFLAGS = -O3 -fomit-frame-pointer -fopenmp -I../..
+FCFLAGS = -O3 -fomit-frame-pointer -I../..
 #FCFLAGS = -O3 -xHOST -qopenmp -I../..
 
 all: ptest1d ptest2d ptest3d ptest3dv prtest2d prtest3d prtest3dv pspeed1d pspeed2d pspeed3d pspeed3dv prspeed2d prspeed3d prspeed3dv
