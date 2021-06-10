@@ -42,7 +42,7 @@ C
       CALL DUMP(A,NN,ME,NPU)
 C
       CALL MPI_FINALIZE(IERR)
-      STOP
+      RETURN
       END
       SUBROUTINE INIT(A,NN,ME,NPU)
       IMPLICIT REAL*8 (A-H,O-Z)
